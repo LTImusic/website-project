@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #f9cc02;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  margin-right: 70px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  /* text-align: center; */
+  padding: 50px 20px;
+  
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #555;
+  margin: 0; 
+}
+
+img {
+  /* max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto; */
+  width: 18%;
+}
+.home-page-image {
+  width: 75%;
+}
+
+img[src*="lti logo.jpg"] {
+  width: 100px;
+  height: 100px;
+}
+
+img[src*="coffee_bar.jpeg"] {
+  width: 70%;
+}
+
+footer {
+  background-color: #f9cc02;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-media a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
+}
